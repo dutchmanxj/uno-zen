@@ -23,7 +23,8 @@
     </main>
 
     {{ghost_foot}}
-
+    <script src="/highlight/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     <script src="{{asset "js/uno-zen.common.js"}}" type="text/javascript" charset="utf-8"></script>
     {{#is "post, page"}}
       <script src="{{asset "js/uno-zen.post.js"}}" type="text/javascript" charset="utf-8"></script>
